@@ -2,16 +2,10 @@ import pandas as pd
 import numpy
 
 
-families_mainstreet = ['Jon & Kim Moody', 'Jake & Kori Richards', 'Mike & Brooke Romney', 'Mike & Emily Hansen',
-            'Chris & Shelley Barker', 'Adam & Lisa Stevens', 'John & Renee Tanner', 'Sam & Beth Rhoades',
-            'Wade & Kathrine Reed']
-families_stakecenter = ['Brandon & Kristi Bybee', 'Jared & Heather Bodily', 'Jon & Jeanne Groberg', 'Kevin & Heather Paulsen',
-                        'Trent & Brittani Brown', 'Nate & Hillory Dahle', 'Jason & Amy Hoagland', 'Steve and Erin Pulley',
-                        'Barrie & Martha McKay']
-families_gardenchapel = ['Travis & Emily Maughan', 'Fidel & Leslie Perez', 'Travis & Natalie Clemens', 'Layne & Jamie Caldwell',
-                         'George & Deborah Wolf', 'Joe & Kenzie Landvatter', 'Jim & Karen Wright']
-families = families_stakecenter
-filename = 'MasterTrekList_StakeCenter.csv'
+families = ['family 1', 'family 2', 'family 3', 'family 4',
+            'family 5', 'family 6', 'family 7', 'family 8',
+            'family 9']
+filename = 'insertfilenamehere.csv'
 chapel = 'StakeCenter'
 print(len(families))
 
